@@ -5,10 +5,12 @@
     android:background="#333333"
     tools:context="${packageName}.${activityClass}" >
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" 
-        android:textColor="#FFFFFF"/>
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/splashimg" />
 
 </RelativeLayout>
