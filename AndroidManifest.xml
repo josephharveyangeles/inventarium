@@ -14,13 +14,21 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.creosoft.inventarium.LauncherView"
+            android:name="com.creosoft.inventarium.InventariumLauncherView"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.creosoft.inventarium.InventariumLimboView"
+            android:label="@string/title_activity_inventarium_limbo_view" >
+        </activity>
+        <activity
+            android:name="com.creosoft.inventarium.InventariumMainFormView"
+            android:label="@string/title_activity_inventarium_main_form_view" >
         </activity>
     </application>
 

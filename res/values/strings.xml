@@ -3,5 +3,7 @@
 
     <string name="app_name">Inventarium</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_inventarium_limbo_view">Limbo</string>
+    <string name="title_activity_inventarium_main_form_view">InventariumMainFormView</string>
 
 </resources>
